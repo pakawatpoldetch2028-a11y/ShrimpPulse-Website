@@ -4,7 +4,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, claude/funny-euler-65vasq]
   workflow_dispatch:
 
 permissions:
