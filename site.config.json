@@ -1,0 +1,103 @@
+{
+  "_comment": "Central configuration and asset manifest. Leave a value empty (\"\") to show the reserved placeholder for it. Paths are relative to the repository root and must be inside assets/.",
+  "site": {
+    "name": "ShrimpPulse",
+    "siteUrl": "https://pakawatpoldetch2028-a11y.github.io/ShrimpPulse-Website",
+    "defaultLanguage": "th",
+    "languages": [
+      "th",
+      "en"
+    ],
+    "thaiCalendar": "buddhist",
+    "_thaiCalendar_help": "\"buddhist\" renders Thai dates in พ.ศ. (e.g. ธันวาคม 2568); \"gregorian\" keeps ค.ศ. years. Underlying dates never change."
+  },
+  "release": {
+    "current": {
+      "version": "2.0",
+      "releasedOn": "2026-04"
+    },
+    "developing": {
+      "version": "4.0",
+      "startedOn": "2026-08"
+    },
+    "proposalDate": "2026-09",
+    "_help": "Status labels (available / developing / planned / considering) are defined once in content/<lang>/common.json under \"status\". Per-feature statuses live in content/<lang>/capabilities.json."
+  },
+  "links": {
+    "lineUrl": "",
+    "lineQrImage": "",
+    "feedbackFormUrl": "",
+    "_help": "lineUrl: the official LINE add-friend link for ShrimpPulse 2.0. lineQrImage: a QR image you generate from that real link (never auto-generated here). While empty, buttons point visitors to the access-information section instead."
+  },
+  "contact": {
+    "email": "",
+    "organisation": "",
+    "_help": "Shown on the Progress & Participation page. While empty, a reserved contact area is displayed."
+  },
+  "images": {
+    "mascot": "assets/images/brand/shrimppulse-mascot-trimmed.png",
+    "mascotSmall": "assets/images/brand/shrimppulse-mascot-320.png",
+    "mascotMedium": "assets/images/brand/shrimppulse-mascot-640.png",
+    "lineScreenshotHome": "",
+    "lineScreenshotCapabilities": "",
+    "founderPortrait": "",
+    "researchPhoto": "",
+    "farmVisitPhoto": "",
+    "communityPhoto": "",
+    "pondPhoto": "",
+    "architectureIllustration": "",
+    "feedbackChart": "",
+    "_help": "Set each key to a path such as assets/images/photos/farm-visit.jpg. Alt text and captions are edited in content/<lang>/*.json next to the matching placeholder."
+  },
+  "quotes": {
+    "founder": {
+      "en": "",
+      "th": ""
+    },
+    "_help": "A short personal quotation shown on the Why ShrimpPulse page. Leave both empty to keep the reserved space."
+  },
+  "updates": {
+    "latest": {
+      "date": "",
+      "en": "",
+      "th": ""
+    },
+    "_help": "A short dated update shown on the Progress & Participation page."
+  },
+  "feedback": {
+    "asOf": "2026-09-27",
+    "responses": 249,
+    "activeUsers": 256
+  },
+  "people": {
+    "_help": "Names and organisations referenced across the site via {{people.key}} tokens in content files. Thai personal names are kept in Latin script by default so that no real name is misspelled; replace them with the correct Thai spellings when confirmed.",
+    "founder": {
+      "en": "Pakawat “Messi” Poldetch",
+      "th": "Pakawat “Messi” Poldetch"
+    },
+    "reviewer": {
+      "en": "Dr. Tirawat Rairat",
+      "th": "ดร. Tirawat Rairat"
+    },
+    "reviewerAffiliation": {
+      "en": "Aquaculture Business Research Centre, Kasetsart University",
+      "th": "ศูนย์วิจัยธุรกิจเพาะเลี้ยงสัตว์น้ำ มหาวิทยาลัยเกษตรศาสตร์"
+    },
+    "taa": {
+      "en": "Thai Aquaculture Association",
+      "th": "สมาคมเพาะเลี้ยงสัตว์น้ำไทย (Thai Aquaculture Association)"
+    },
+    "taba": {
+      "en": "Thai Aquaculture Business Association (TABA)",
+      "th": "สมาคมธุรกิจเพาะเลี้ยงสัตว์น้ำไทย (TABA)"
+    },
+    "prakob": {
+      "en": "Mr. Prakob Sapyoedkaew",
+      "th": "คุณ Prakob Sapyoedkaew"
+    },
+    "soraphat": {
+      "en": "Mr. Soraphat Panakorn",
+      "th": "คุณ Soraphat Panakorn"
+    }
+  }
+}

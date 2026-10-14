@@ -1,0 +1,59 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "siteTagline": "Aquaculture knowledge, closer to the farm.",
+  "siteDescription": "ShrimpPulse is an AI assistant for shrimp aquaculture, available on LINE, that helps farmers and professionals access expert-reviewed knowledge about responsible antibiotic and chemical use.",
+  "skipToContent": "Skip to main content",
+  "menu": "Menu",
+  "closeMenu": "Close menu",
+  "languageSwitch": "Language",
+  "switchTo": "ไทย",
+  "switchToAria": "เปลี่ยนเป็นภาษาไทย",
+  "nav": {
+    "home": "Home",
+    "why": "Why ShrimpPulse",
+    "capabilities": "Capabilities",
+    "how": "How It Works",
+    "progress": "Progress & Participation",
+    "acknowledgements": "Acknowledgements"
+  },
+  "status": {
+    "available": { "label": "Available in 2.0", "short": "Available", "hint": "Part of the current public release." },
+    "developing": { "label": "In development for 4.0", "short": "In development", "hint": "Being built and refined; not yet publicly released or validated." },
+    "planned": { "label": "Planned addition", "short": "Planned", "hint": "Intended for a later stage; not yet in development." },
+    "considering": { "label": "Under consideration", "short": "Under consideration", "hint": "Being evaluated; feasibility and cost unresolved." }
+  },
+  "statusLegendTitle": "How to read release status",
+  "cta": {
+    "useLine": "Use ShrimpPulse 2.0 on LINE",
+    "useLinePending": "ShrimpPulse 2.0 on LINE: access details",
+    "roadmap": "Explore the 4.0 roadmap",
+    "readStory": "Read the story",
+    "compare": "Compare 2.0 and 4.0",
+    "seeHow": "See how it works",
+    "feedbackForm": "Open the feedback form",
+    "feedbackPending": "Feedback form link coming soon",
+    "contact": "Contact & collaboration"
+  },
+  "placeholders": {
+    "lineQr": "[Add LINE QR code generated from the official link]",
+    "lineLinkPending": "The official LINE link for ShrimpPulse 2.0 will be added here. Until then, no access link is published on this site."
+  },
+  "footer": {
+    "about": "ShrimpPulse is an independent project by {{people.founder}}. The pharmacological knowledge base was curated and reviewed by {{people.reviewer}}, {{people.reviewerAffiliation}}.",
+    "disclaimer": "ShrimpPulse supports informed decisions. It does not replace veterinary consultation, laboratory confirmation, or applicable regulations.",
+    "statusNote": "ShrimpPulse 2.0 is the current public release. ShrimpPulse 4.0 is in development; dates are targets, not promises.",
+    "rights": "© {year} ShrimpPulse. All rights reserved.",
+    "builtNote": "Built as a lightweight, bilingual static site."
+  },
+  "dates": {
+    "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "quarter": "Q{q} {year}",
+    "range": "{from} – {to}"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you requested does not exist. Use the links below to return to ShrimpPulse.",
+    "home": "Go to the home page"
+  }
+}

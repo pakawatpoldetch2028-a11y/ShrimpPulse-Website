@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Progress & Participation — ShrimpPulse roadmap and feedback",
+    "description": "The ShrimpPulse development timeline from the September 2026 proposal, reported user feedback on version 2.0, and how to participate or collaborate."
+  },
+  "hero": {
+    "eyebrow": "Progress & Participation",
+    "title": "Where the project has been, and where it is proposed to go",
+    "lead": "This page separates what has already happened from what is planned. The roadmap comes from the September 2026 proposal and remains subject to revision; proposed dates are targets, not promises."
+  },
+  "timeline": {
+    "title": "Development timeline",
+    "sourceNote": "Source: ShrimpPulse project proposal, September 2026. Milestones are not marked complete simply because their dates have passed; completed items are those documented in the proposal.",
+    "completedTitle": "Completed milestones",
+    "completedLabel": "Completed",
+    "plannedTitle": "Proposed next steps",
+    "plannedLabel": "Planned",
+    "completed": [
+      { "date": "2025-12", "title": "Development of ShrimpPulse 2.0 began", "text": "Flow-agent approach with knowledge-base retrieval; two modules on antibiotic and chemical usage." },
+      { "date": "2026-02", "title": "Field testing began", "text": "Initial on-site testing of 2.0 with experienced shrimp farmers." },
+      { "date": "2026-04", "title": "Public release of ShrimpPulse 2.0", "text": "Made available on LINE, free of charge." },
+      { "date": "2026-08", "title": "Development of ShrimpPulse 4.0 began", "text": "Loop-agent architecture; first knowledge-base version with three modules." },
+      { "date": "2026-09", "title": "Structured user feedback system introduced", "text": "Collecting feedback from 2.0 users to guide 4.0 priorities." }
+    ],
+    "planned": [
+      { "date": "2026-10", "title": "Feedback analysis and benchmarking", "text": "Analyse structured feedback and establish benchmarks for comparing versions." },
+      { "date": "2026-11", "title": "Integrated prototype and alpha testing", "text": "Bring the three modules and the loop-agent workflow together for internal testing." },
+      { "date": "2026-12", "title": "Expert review and challenging-scenario testing", "text": "Review of the knowledge base and skills, with testing on difficult cases." },
+      { "date": "2027-01", "title": "Closed beta and field pilot", "text": "Limited release to selected users and farms." },
+      { "date": "2027-02", "title": "Refinement and validation", "text": "Address pilot findings and validate before any wider release." },
+      { "date": "2027-03", "title": "Proposed public release of ShrimpPulse 4.0", "text": "Subject to satisfactory validation and expert review." },
+      { "date": "2027-04", "dateTo": "2027-05", "title": "Post-launch evaluation", "text": "Evaluate the release against the benchmarks set earlier." },
+      { "date": "2027-Q3", "title": "Framework for regular evidence updates", "text": "Planned framework for updating the knowledge base as evidence changes." }
+    ]
+  },
+  "feedback": {
+    "eyebrow": "Participation and feedback",
+    "title": "What 2.0 users have reported",
+    "asOfLabel": "Reported as of {date}",
+    "stats": [
+      { "value": "249", "label": "feedback responses" },
+      { "value": "256", "label": "active users" }
+    ],
+    "text": "The September 2026 proposal reports 249 feedback responses from 256 active users as of 27 September 2026. These figures describe reported participation and feedback. They are not independently validated measures of accuracy, effectiveness, or impact, and users have not been converted into farms or market share.",
+    "requestsTitle": "Common requests",
+    "requests": [
+      { "title": "Disease and prevention information", "text": "Now the third module in 4.0 development." },
+      { "title": "Standard farm management", "text": "A planned fourth module after the first three are established." },
+      { "title": "Explanatory images", "text": "Under consideration; feasibility and cost unresolved." },
+      { "title": "Faster responses", "text": "Informing the planned balance of speed, reasoning, and cost." }
+    ],
+    "chartLabel": "[Add a genuine feedback chart or screenshot]",
+    "chartAlt": "Chart summarising user feedback on ShrimpPulse 2.0.",
+    "chartCaption": "A chart or screenshot from the feedback system will be added here."
+  },
+  "loop": {
+    "title": "How feedback informs development",
+    "steps": [
+      { "title": "Use", "text": "Farmers and professionals use 2.0 on LINE." },
+      { "title": "Feedback", "text": "Structured feedback is collected through the system introduced in September 2026." },
+      { "title": "Analysis", "text": "Requests are grouped and weighed against feasibility and cost." },
+      { "title": "Development", "text": "Priorities shape 4.0 modules, skills, and planned additions." },
+      { "title": "Review and testing", "text": "Expert review and field testing before any public release." }
+    ]
+  },
+  "update": {
+    "eyebrow": "Latest update",
+    "title": "From the project",
+    "label": "[Add a short project update]",
+    "pending": "A short dated update from the project will appear here."
+  },
+  "participate": {
+    "eyebrow": "Get involved",
+    "title": "Participation and collaboration",
+    "text": "ShrimpPulse grows through the people who use it and the specialists who review it. If you farm shrimp, work in aquaculture, conduct research, or represent an organisation interested in collaborating, the project would like to hear from you.",
+    "ways": [
+      { "title": "Use 2.0 and give feedback", "text": "Try ShrimpPulse 2.0 on LINE and tell us what helps and what is missing." },
+      { "title": "Field testing and expert review", "text": "Farms and specialists willing to take part in 4.0 testing and review." },
+      { "title": "Research and institutional collaboration", "text": "Enquiries about collaboration, evaluation, or distribution." }
+    ],
+    "formTitle": "Feedback form",
+    "formText": "A structured feedback form for ShrimpPulse users.",
+    "formPending": "The feedback form link will be added here. In the meantime, feedback can be given through the contact details once they are published.",
+    "contactTitle": "Contact",
+    "contactPending": "[Add contact details]",
+    "contactPendingText": "Contact information for the project will be published here.",
+    "emailLabel": "Email"
+  }
+}

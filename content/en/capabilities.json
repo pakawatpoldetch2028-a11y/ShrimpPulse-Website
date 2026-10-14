@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Capabilities — What ShrimpPulse 2.0 does and what 4.0 adds",
+    "description": "Compare ShrimpPulse 2.0 (available now) with ShrimpPulse 4.0 (in development): antibiotic guidance, chemical guidance, disease and prevention guidance, loop-agent workflows, and planned additions."
+  },
+  "hero": {
+    "eyebrow": "Capabilities",
+    "title": "What is available now, and what is still being built",
+    "lead": "Every capability on this page carries a release status. ShrimpPulse 2.0 is the version you can use today. ShrimpPulse 4.0 is in development and has not been publicly released or validated. Planned and uncertain additions are listed separately."
+  },
+  "comparison": {
+    "title": "Capability comparison",
+    "caption": "Release status of each ShrimpPulse capability, by version.",
+    "columns": { "capability": "Capability", "v2": "ShrimpPulse 2.0 (public)", "v4": "ShrimpPulse 4.0 (in development)", "status": "Overall status" },
+    "yes": "Included",
+    "developing": "In development",
+    "no": "Not included",
+    "rows": [
+      { "name": "Antibiotic usage guidance", "v2": "yes", "v4": "developing", "status": "available", "note": "Available in 2.0; also part of 4.0 development." },
+      { "name": "Chemical usage guidance", "v2": "yes", "v4": "developing", "status": "available", "note": "Available in 2.0; also part of 4.0 development." },
+      { "name": "Disease diagnosis and prevention guidance", "v2": "no", "v4": "developing", "status": "developing", "note": "Third module in the first version of the 4.0 knowledge base." },
+      { "name": "Loop-agent workflows and specialised skills", "v2": "no", "v4": "developing", "status": "developing", "note": "Multi-step retrieval and skill selection; 2.0 uses a flow-agent approach." },
+      { "name": "Standard farm management guidance", "v2": "no", "v4": "no", "status": "planned", "note": "Fourth module, planned after the first three are established." },
+      { "name": "Explanatory image generation", "v2": "no", "v4": "no", "status": "considering", "note": "Technical feasibility and cost remain unresolved." }
+    ]
+  },
+  "modules": {
+    "title": "The modules, in plain language",
+    "items": [
+      {
+        "id": "antibiotics",
+        "status": "available",
+        "alsoDeveloping": true,
+        "title": "Antibiotic usage guidance",
+        "text": "Answers questions about antibiotics used in shrimp aquaculture by drawing on a pharmacological knowledge base curated and reviewed by {{people.reviewer}} of Kasetsart University. The emphasis is on responsible use: whether an antibiotic is appropriate, how it is generally used, and what should be considered before using it. In 4.0 the same knowledge is being reorganised into specialised skills.",
+        "examplesTitle": "Illustrative question types",
+        "examples": [
+          "Which classes of antibiotics are used in shrimp farming and what distinguishes them?",
+          "What should I consider before deciding whether an antibiotic is appropriate for a pond problem?",
+          "Why do withdrawal periods matter before harvest?"
+        ]
+      },
+      {
+        "id": "chemicals",
+        "status": "available",
+        "alsoDeveloping": true,
+        "title": "Chemical usage guidance",
+        "text": "Covers chemicals and treatment products used in pond management, drawing on the same reviewed knowledge base. In 4.0 development, chemical-related skills are being designed to address factors such as efficacy, dosage, toxicity, and application conditions, so that a question about a product can be answered in the context of the pond it is used in.",
+        "examplesTitle": "Illustrative question types",
+        "examples": [
+          "What is this product generally used for in shrimp ponds?",
+          "What conditions affect how a water treatment chemical works?",
+          "What safety considerations apply when handling and applying it?"
+        ]
+      },
+      {
+        "id": "disease",
+        "status": "developing",
+        "alsoDeveloping": false,
+        "title": "Disease diagnosis and prevention guidance",
+        "text": "The third module in the first version of the 4.0 knowledge base. Disease-related skills are intended to consider possible causes of a problem, help distinguish relevant clinical signs, and suggest confirmatory testing rather than jumping to a treatment. This module is being refined before expert review and field testing. It is not part of the public 2.0 release, and its accuracy has not yet been validated.",
+        "examplesTitle": "Illustrative question types",
+        "examples": [
+          "Shrimp are showing these signs; what possible causes should I consider?",
+          "Which observations or tests would help distinguish between these causes?",
+          "What prevention practices are relevant to this disease?"
+        ]
+      },
+      {
+        "id": "loop",
+        "status": "developing",
+        "alsoDeveloping": false,
+        "title": "Loop-agent workflows and specialised skills",
+        "text": "Not a module but the architecture behind 4.0. The developing system can identify the type of question, select appropriate resources or skills, retrieve information in multiple steps, assess intermediate results, and seek further information when necessary. It is intended to connect related issues across disease, treatment, prevention, and farm conditions. These are development capabilities and intended workflows, not proof of clinical accuracy.",
+        "examplesTitle": "What this is meant to change",
+        "examples": [
+          "A treatment question can first prompt consideration of disease signs and pond conditions.",
+          "An answer can draw on more than one module when the topic crosses between them.",
+          "The system can recognise when it lacks enough information and look further before answering."
+        ]
+      },
+      {
+        "id": "farm-management",
+        "status": "planned",
+        "alsoDeveloping": false,
+        "title": "Standard farm management",
+        "text": "A fourth module covering standard farm management practices is planned after the first three modules are established. It was among the most common requests in user feedback. No development timeline has been set for it.",
+        "examplesTitle": "",
+        "examples": []
+      },
+      {
+        "id": "images",
+        "status": "considering",
+        "alsoDeveloping": false,
+        "title": "Explanatory image generation",
+        "text": "Users have asked for explanatory images alongside text answers. Generating them is under consideration; the technical feasibility and operating cost of doing so reliably remain unresolved.",
+        "examplesTitle": "",
+        "examples": []
+      }
+    ]
+  },
+  "improvement": {
+    "status": "planned",
+    "title": "Planned improvement: speed, reasoning, and cost",
+    "text": "Faster responses were a frequent request from 2.0 users. A planned improvement for 4.0 is to balance response speed, useful reasoning, and operating cost, informed by user feedback. Multi-step reasoning takes longer and costs more per question than a single retrieval, so this balance is an explicit design goal rather than a solved problem."
+  },
+  "longerTerm": {
+    "title": "Longer-term ambitions and resource-dependent expansion",
+    "lead": "The items below are kept apart from the core feature list on purpose. None of them is an existing 2.0 feature or a confirmed launch feature for 4.0.",
+    "groups": [
+      {
+        "title": "Potential expansion with additional resources",
+        "text": "If additional resources become available, the project could add:",
+        "items": [
+          "More specialised skills for water quality, nutrition, biosecurity, scientific evidence, and regulatory guidance.",
+          "Stronger models for difficult questions, and model routing to match a question to a suitable model.",
+          "Improved document processing and retrieval.",
+          "Greater capacity to serve more users."
+        ]
+      },
+      {
+        "title": "Longer-term project ambitions, implementation not confirmed",
+        "text": "The proposal also mentions ambitions whose implementation has not been confirmed:",
+        "items": [
+          "Dedicated dosage calculators.",
+          "Withdrawal-period tracking.",
+          "Real-time policy updates.",
+          "Offline access.",
+          "Adaptation to additional regions."
+        ]
+      }
+    ]
+  },
+  "professionalNote": {
+    "title": "A note on professional consultation",
+    "text": "ShrimpPulse is designed to support informed decisions by making reviewed reference knowledge easier to reach. It does not examine your pond. Disease assessment and treatment decisions may still require consultation with a veterinarian or aquatic animal health professional and confirmatory laboratory testing, and antimicrobial use must follow applicable regulations."
+  },
+  "screenshot": {
+    "label": "[Add a LINE screenshot showing a 2.0 conversation]",
+    "alt": "Screenshot of ShrimpPulse 2.0 answering a question on LINE.",
+    "caption": "A genuine ShrimpPulse 2.0 conversation will be shown here."
+  }
+}

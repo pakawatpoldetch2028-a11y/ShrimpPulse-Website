@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "Why ShrimpPulse — The story behind the project",
+    "description": "Why {{people.founder}} created ShrimpPulse: translating antibiotic resistance research into accessible, expert-reviewed knowledge for shrimp farms."
+  },
+  "hero": {
+    "eyebrow": "Why ShrimpPulse",
+    "title": "Translating research into something the community can use",
+    "lead": "I am {{people.founder}}, the founder of ShrimpPulse. This page explains where the project came from, what problem it tries to address, and what I hope it can contribute.",
+    "portraitLabel": "[Add founder portrait]",
+    "portraitAlt": "Portrait of {{people.founder}}, founder of ShrimpPulse."
+  },
+  "founder": {
+    "title": "A short introduction",
+    "paragraphs": [
+      "My background is in research on antimicrobial resistance in bacteria associated with fishery products. Before ShrimpPulse, I spent most of my time in the laboratory and the literature, not on farms.",
+      "ShrimpPulse is my attempt to carry what I learned out of that setting and into a form that people working in shrimp aquaculture can actually use, in their own language, on a platform they already open every day."
+    ]
+  },
+  "research": {
+    "eyebrow": "Where it started",
+    "title": "The research that came first",
+    "paragraphs": [
+      "My preceding research investigated resistance to fluoroquinolones and third-generation cephalosporins in Escherichia coli and Vibrio spp. isolated from commercial fishery products. Both antibiotic classes are important in human medicine, which is why resistance to them is watched closely.",
+      "Finding resistance to these antibiotics in bacteria from food products made an abstract concern concrete. Aquaculture, food systems, and human health are not separate compartments; bacteria and the genes they carry move between them.",
+      "It is worth being precise about what such findings show and what they do not. Detecting resistant bacteria in a product does not, by itself, identify where the resistance came from or establish that any particular farmer misused antibiotics. Resistance can arise and spread through many routes. What the findings do make clear is that decisions made along the whole chain, including on farms, are part of a shared picture."
+    ],
+    "photoLabel": "[Add research photograph]",
+    "photoAlt": "Laboratory work during the antibiotic resistance research that preceded ShrimpPulse.",
+    "photoCaption": "Research photograph to be added."
+  },
+  "question": {
+    "eyebrow": "The practical question",
+    "title": "How does scientific knowledge reach the people making everyday decisions?",
+    "paragraphs": [
+      "Research results usually end their journey in journals and conference rooms. The people who decide when to treat a pond, which product to use, and how long to wait before harvest rarely have that material in front of them when they need it.",
+      "Meanwhile, much of the relevant knowledge already exists: pharmacology references, product information, and practical experience from specialists and experienced farmers. The gap is access, timing, and language, not the absence of knowledge.",
+      "That reframed the problem for me. Instead of asking how to produce more findings, I started asking how existing, reviewed knowledge could be made available at the moment a decision is being made."
+    ]
+  },
+  "answer": {
+    "eyebrow": "The response",
+    "title": "A reference that fits in the conversation",
+    "paragraphs": [
+      "ShrimpPulse is an AI assistant that answers questions about antibiotic and chemical use in shrimp aquaculture by drawing on a knowledge base that was curated and reviewed by a pharmacology specialist. It runs inside LINE, so there is nothing new to install and nothing to pay.",
+      "The aim is to support responsible antimicrobial use and better-informed aquaculture decisions. I describe those as intended contributions rather than results: ShrimpPulse 2.0 has been in public use since April 2026, and its effect on practice has not yet been independently measured.",
+      "User feedback from 2.0 is now shaping ShrimpPulse 4.0, which is in development and will extend the knowledge base to disease and prevention guidance once it has been through expert review and field testing."
+    ],
+    "farmLabel": "[Add farm visit photograph]",
+    "farmAlt": "Visiting a shrimp farm during the field testing of ShrimpPulse 2.0.",
+    "farmCaption": "Farm visit photograph to be added."
+  },
+  "quote": {
+    "label": "[Add a short personal quotation]",
+    "attribution": "{{people.founder}}, founder of ShrimpPulse"
+  },
+  "amr": {
+    "eyebrow": "Background",
+    "title": "What antimicrobial resistance is",
+    "paragraphs": [
+      "Antimicrobials are substances, including antibiotics, that kill microorganisms or stop them from growing. Antimicrobial resistance (AMR) occurs when bacteria change so that a medicine that used to work against them no longer does.",
+      "Resistance is a natural process, but it is accelerated when antimicrobials are used more often, in larger amounts, or for longer than necessary. The bacteria that survive treatment are the resistant ones, and they can pass resistance genes to other bacteria.",
+      "The practical consequence is that infections in animals and people become harder to treat. Using antimicrobials only when needed, at the right dose, for the right duration, and respecting withdrawal periods are ways everyone who handles them can help slow resistance."
+    ]
+  },
+  "oneHealth": {
+    "eyebrow": "Background",
+    "title": "One Health, briefly",
+    "text": "One Health is the recognition that the health of people, animals, and the environment is connected. In aquaculture this is unusually direct: shrimp live in water that is shared with the surrounding environment, products reach consumers' kitchens, and the bacteria involved do not respect the boundaries between these settings. Responsible antimicrobial use on farms is therefore also a contribution to public and environmental health.",
+    "nodes": [
+      { "title": "Aquatic animals", "text": "Healthy shrimp and sensible treatment decisions." },
+      { "title": "People", "text": "Safe food and medicines that keep working." },
+      { "title": "Environment", "text": "Ponds, waterways, and the microbes they carry." }
+    ]
+  },
+  "acknowledgementsPreview": {
+    "eyebrow": "With thanks",
+    "title": "Review and cooperation",
+    "text": "The pharmacological knowledge base of ShrimpPulse was curated and reviewed by {{people.reviewer}} of the {{people.reviewerAffiliation}}. ShrimpPulse 2.0 was developed in partnership with the {{people.taa}} and the {{people.taba}}, and its initial field testing took place on the farm of {{people.prakob}}, President of the {{people.taa}}.",
+    "link": "Read the full acknowledgements"
+  }
+}

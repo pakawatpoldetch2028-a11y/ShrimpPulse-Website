@@ -1,0 +1,17 @@
+{
+  "name": "shrimppulse-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual (EN/TH) informational website for ShrimpPulse, a shrimp aquaculture AI assistant.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && node scripts/serve.js",
+    "check": "node build.js && node scripts/check.js",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

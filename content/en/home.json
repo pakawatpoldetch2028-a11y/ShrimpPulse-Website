@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "title": "ShrimpPulse — Aquaculture knowledge, closer to the farm",
+    "description": "ShrimpPulse is an AI assistant for shrimp aquaculture on LINE. Version 2.0 offers expert-reviewed antibiotic and chemical usage guidance; version 4.0 is in development."
+  },
+  "hero": {
+    "eyebrow": "AI assistant for shrimp aquaculture · on LINE",
+    "headline": "Aquaculture knowledge, closer to the farm.",
+    "lead": "ShrimpPulse is an AI assistant focused on shrimp aquaculture. It helps farmers, technicians, and aquaculture professionals access expert-reviewed knowledge about responsible antibiotic and chemical use, through a platform many farms already use every day: LINE.",
+    "audience": "For Thai shrimp farmers, farm technicians, aquaculture professionals, researchers, and anyone curious about the project.",
+    "mascotAlt": "The ShrimpPulse mascot: a friendly red shrimp in a lab coat and tie, holding a clipboard.",
+    "screenshotLabel": "[Add a genuine LINE conversation screenshot]",
+    "screenshotCaption": "A real ShrimpPulse 2.0 conversation on LINE will appear here.",
+    "screenshotAlt": "Screenshot of a ShrimpPulse 2.0 conversation on LINE."
+  },
+  "statusStrip": {
+    "title": "Release status at a glance",
+    "items": [
+      {
+        "status": "available",
+        "title": "ShrimpPulse 2.0",
+        "text": "Publicly released April 2026. Antibiotic and chemical usage guidance on LINE. Free to use."
+      },
+      {
+        "status": "developing",
+        "title": "ShrimpPulse 4.0",
+        "text": "In development since August 2026. Adds disease and prevention guidance with a loop-agent architecture. Not yet publicly available."
+      },
+      {
+        "status": "planned",
+        "title": "Later additions",
+        "text": "Standard farm management is a planned addition. Explanatory images are under consideration."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Why ShrimpPulse",
+    "title": "From resistance research to a farm-side reference",
+    "text": "ShrimpPulse began with research on antibiotic resistance in bacteria isolated from commercial fishery products. Findings involving antibiotics that matter in human medicine made the link between aquaculture, food systems, and human health tangible. The project is an attempt to bring relevant, reviewed knowledge to the people making everyday decisions on farms.",
+    "quoteLabel": "[Add a short personal quotation]"
+  },
+  "capabilities": {
+    "eyebrow": "Capabilities",
+    "title": "What you can use today, and what is being built",
+    "now": {
+      "status": "available",
+      "title": "ShrimpPulse 2.0 today",
+      "items": [
+        "Antibiotic usage guidance drawn from an expert-reviewed pharmacological knowledge base.",
+        "Chemical usage guidance drawn from the same expert-reviewed knowledge base.",
+        "A flow-agent approach with knowledge-base retrieval, delivered through LINE at no charge."
+      ]
+    },
+    "next": {
+      "status": "developing",
+      "title": "ShrimpPulse 4.0 in development",
+      "items": [
+        "A third module on disease diagnosis and prevention guidance, currently being refined before expert review and field testing.",
+        "A loop-agent architecture that can identify the type of question, choose resources or skills, retrieve in several steps, and check intermediate results.",
+        "Connecting related issues across disease, treatment, prevention, and farm conditions."
+      ]
+    },
+    "note": "Disease and prevention guidance is part of 4.0 development and is not available in the public 2.0 release."
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Retrieve first, then answer",
+    "text": "ShrimpPulse 2.0 uses Retrieval-Augmented Generation: it first finds relevant material in a curated knowledge base and then formulates an answer from it, like consulting an organised reference library before replying. ShrimpPulse 4.0 is being built as a loop agent that can retrieve, assess, and retrieve again when evidence is insufficient.",
+    "steps": [
+      "Question",
+      "Retrieve relevant knowledge",
+      "Formulate an answer"
+    ]
+  },
+  "roadmap": {
+    "eyebrow": "Next development stage",
+    "title": "Where the project is heading",
+    "text": "The September 2026 proposal sets out feedback analysis, prototyping, expert review, and a field pilot ahead of a proposed public release of 4.0 in March 2027. These dates are targets and remain subject to validation and revision.",
+    "milestones": [
+      {
+        "date": "2026-10",
+        "status": "planned",
+        "title": "Feedback analysis and benchmarking"
+      },
+      {
+        "date": "2026-12",
+        "status": "planned",
+        "title": "Expert review and challenging-scenario testing"
+      },
+      {
+        "date": "2027-03",
+        "status": "planned",
+        "title": "Proposed public release of 4.0, subject to validation"
+      }
+    ]
+  },
+  "access": {
+    "eyebrow": "Access",
+    "title": "Using ShrimpPulse 2.0",
+    "text": "ShrimpPulse 2.0 is accessed through LINE and is intended to remain free of charge. Add the official account using the link or QR code below.",
+    "pendingTitle": "LINE access link not yet published",
+    "pendingText": "The official LINE link and QR code will be added to this section. No access link is currently shown on this site, so please check back or contact the project through the Progress & Participation page.",
+    "qrAlt": "QR code for adding ShrimpPulse 2.0 on LINE.",
+    "qrCaption": "Scan with the LINE app to add ShrimpPulse 2.0."
+  }
+}
