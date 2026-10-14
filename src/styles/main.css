@@ -223,7 +223,7 @@ main:focus { outline: none; }
 /* ---------- Home hero ---------- */
 .hero { position: relative; overflow: hidden; background: linear-gradient(180deg, var(--aqua-50) 0%, #fff 100%); padding-block: clamp(2.5rem, 6vw, 5rem) clamp(2rem, 5vw, 4rem); }
 .hero__grid { position: relative; display: grid; gap: 2.5rem; align-items: center; }
-.hero__title { font-size: clamp(2rem, 4.6vw, 3.3rem); margin-bottom: 0.5em; max-width: 16ch; }
+.hero__title { font-size: clamp(2rem, 4.2vw, 3rem); margin-bottom: 0.5em; max-width: 20ch; }
 :lang(th) .hero__title { max-width: 22ch; }
 .hero__lead { font-size: clamp(1.05rem, 1.5vw, 1.2rem); color: var(--ink-700); max-width: 58ch; }
 .hero__audience { font-size: 0.95rem; color: var(--ink-600); max-width: 58ch; }
@@ -506,3 +506,11 @@ main:focus { outline: none; }
   .process__loop { justify-items: start; padding-left: 0.4rem; border-left: 3px dashed #d08a00; margin-left: 1.75rem; }
   .process__loop-label::before { content: "\21BA\00A0"; font-weight: 700; }
 }
+
+/* Header fit: the Thai labels are long, so the header may use a wider container and a slightly smaller nav face */
+.site-header .container { width: min(100% - 2 * var(--gutter), 1300px); }
+:lang(th) .nav__link { font-size: 0.86rem; padding-inline: 0.5rem; }
+@media (min-width: 1200px) { .nav__list { flex-wrap: nowrap; } }
+
+/* Thai hero headline: looped glyphs are wider, so size it to sit on two lines */
+:lang(th) .hero__title { font-size: clamp(1.7rem, 3.3vw, 2.6rem); max-width: none; line-height: 1.35; }
