@@ -28,7 +28,7 @@ export function render(ctx) {
         <div class="phone__notch" aria-hidden="true"></div>
         ${media({ src: img.lineScreenshotHome, alt: c.hero.screenshotAlt, label: c.hero.screenshotLabel, ratio: '9/18', cls: 'phone__screen', rel, eager: true })}
       </div>
-      <p class="hero__visual-caption">${h(c.hero.screenshotCaption)}</p>
+      <p class="hero__visual-caption">${h(img.lineScreenshotHome ? c.hero.screenshotCaptionLive : c.hero.screenshotCaption)}</p>
     </div>
   </div>
 </section>`;

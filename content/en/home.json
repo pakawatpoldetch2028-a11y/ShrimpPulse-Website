@@ -11,7 +11,8 @@
     "mascotAlt": "The ShrimpPulse mascot: a friendly red shrimp in a lab coat and tie, holding a clipboard.",
     "screenshotLabel": "[Add a genuine LINE conversation screenshot]",
     "screenshotCaption": "A real ShrimpPulse 2.0 conversation on LINE will appear here.",
-    "screenshotAlt": "Screenshot of a ShrimpPulse 2.0 conversation on LINE."
+    "screenshotAlt": "Screenshot of a ShrimpPulse 2.0 conversation on LINE.",
+    "screenshotCaptionLive": "A ShrimpPulse 2.0 conversation on LINE."
   },
   "statusStrip": {
     "title": "Release status at a glance",

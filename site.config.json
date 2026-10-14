@@ -24,8 +24,8 @@
     "_help": "Status labels (available / developing / planned / considering) are defined once in content/<lang>/common.json under \"status\". Per-feature statuses live in content/<lang>/capabilities.json."
   },
   "links": {
-    "lineUrl": "",
-    "lineQrImage": "",
+    "lineUrl": "https://lin.ee/51IWewz",
+    "lineQrImage": "assets/images/photos/line-qr.png",
     "feedbackFormUrl": "",
     "_help": "lineUrl: the official LINE add-friend link for ShrimpPulse 2.0. lineQrImage: a QR image you generate from that real link (never auto-generated here). While empty, buttons point visitors to the access-information section instead."
   },
@@ -38,7 +38,7 @@
     "mascot": "assets/images/brand/shrimppulse-mascot-trimmed.png",
     "mascotSmall": "assets/images/brand/shrimppulse-mascot-320.png",
     "mascotMedium": "assets/images/brand/shrimppulse-mascot-640.png",
-    "lineScreenshotHome": "",
+    "lineScreenshotHome": "assets/images/photos/line-screenshot-home.png",
     "lineScreenshotCapabilities": "",
     "founderPortrait": "",
     "researchPhoto": "",
@@ -51,8 +51,8 @@
   },
   "quotes": {
     "founder": {
-      "en": "",
-      "th": ""
+      "en": "Antibiotic resistance will have devastating consequences if left unchecked. In creating ShrimpPulse, I hope to channel the powers of Artificial Intelligence (AI) to help aquaculture communities ameliorate this issue.",
+      "th": "ปัญหาการดื้อยาปฏิชีวนะจะส่งผลกระทบร้ายแรงหากปล่อยไว้โดยไม่มีการแก้ไข ด้วยการพัฒนา ShrimpPulse ผมหวังที่จะนำศักยภาพของปัญญาประดิษฐ์ (AI) มาใช้เพื่อช่วยให้ชุมชนผู้เพาะเลี้ยงสัตว์น้ำสามารถบรรเทาปัญหานี้ได้"
     },
     "_help": "A short personal quotation shown on the Why ShrimpPulse page. Leave both empty to keep the reserved space."
   },

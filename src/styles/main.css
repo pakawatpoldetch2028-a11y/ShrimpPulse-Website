@@ -233,7 +233,7 @@ main:focus { outline: none; }
 .hero__mascot { width: min(58%, 300px); position: relative; z-index: 2; margin-bottom: -22%; filter: drop-shadow(0 12px 18px rgba(11, 58, 71, 0.18)); }
 .phone { position: relative; width: min(100%, 250px); background: var(--teal-900); border-radius: 36px; padding: 12px; box-shadow: var(--shadow); }
 .phone__notch { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: 38%; height: 20px; background: var(--teal-900); border-radius: 0 0 14px 14px; z-index: 2; }
-.phone__screen { --ratio: 9 / 18; }
+.phone__screen { --ratio: 427 / 934; }
 .phone__screen img, .phone__screen .placeholder { border-radius: 26px; }
 .phone__screen .placeholder { background-color: #fff; border-color: var(--teal-200); }
 .phone--static { justify-self: center; }

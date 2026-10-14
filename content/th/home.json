@@ -11,7 +11,8 @@
     "mascotAlt": "มาสคอตของ ShrimpPulse: กุ้งสีแดงหน้าตาเป็นมิตร สวมเสื้อกาวน์และเนกไท ถือคลิปบอร์ด",
     "screenshotLabel": "[เพิ่มภาพหน้าจอการสนทนาจริงบน LINE]",
     "screenshotCaption": "ภาพการสนทนาจริงกับ ShrimpPulse 2.0 บน LINE จะแสดงตรงนี้",
-    "screenshotAlt": "ภาพหน้าจอการสนทนากับ ShrimpPulse 2.0 บน LINE"
+    "screenshotAlt": "ภาพหน้าจอการสนทนากับ ShrimpPulse 2.0 บน LINE",
+    "screenshotCaptionLive": "ตัวอย่างการสนทนากับ ShrimpPulse 2.0 บน LINE"
   },
   "statusStrip": {
     "title": "สถานะการเปิดใช้งานโดยสรุป",
