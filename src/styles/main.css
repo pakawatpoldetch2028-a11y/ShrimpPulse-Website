@@ -1,5 +1,5 @@
 /* ShrimpPulse — site stylesheet
-   Palette, type system (IBM Plex Sans + IBM Plex Sans Thai), components, layouts.
+   Palette, type system (IBM Plex Sans + IBM Plex Sans Thai Looped), components, layouts.
    Status colours are always paired with words and icons in the markup. */
 
 :root {
@@ -35,8 +35,8 @@
   --st-considering-fg: #4b4b4b;
   --st-considering-bd: #c9c9c9;
 
-  --font-latin: "IBM Plex Sans", "IBM Plex Sans Thai", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Thai", sans-serif;
-  --font-thai: "IBM Plex Sans Thai", "IBM Plex Sans", "Noto Sans Thai", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-latin: "IBM Plex Sans", "IBM Plex Sans Thai Looped", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Thai", sans-serif;
+  --font-thai: "IBM Plex Sans Thai Looped", "IBM Plex Sans", "Noto Sans Thai", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   --radius: 14px;
   --radius-sm: 8px;

@@ -92,5 +92,5 @@ URL structure: `/th/`, `/th/why/`, `/th/capabilities/`, `/th/how-it-works/`, `/t
 
 - Skip link, landmark regions, keyboard-operable mobile menu (Escape closes), visible focus rings, `aria-current` on navigation, `prefers-reduced-motion` support.
 - Status is always conveyed by icon and words, not colour alone. The comparison table has a stacked card equivalent on narrow screens.
-- Fonts: IBM Plex Sans and IBM Plex Sans Thai from Google Fonts with system fallbacks; Thai text uses a taller line height.
+- Fonts: IBM Plex Sans and IBM Plex Sans Thai Looped from Google Fonts with system fallbacks; Thai text uses a taller line height.
 - Images are lazy-loaded except the hero mascot; the mascot ships in three sizes.

@@ -61,7 +61,7 @@ export function notFound({ config, basePath, contents }) {
 <meta name="description" content="ShrimpPulse – page not found">
 <meta name="robots" content="noindex">
 <link rel="icon" href="${h(basePath)}assets/images/brand/favicon.ico" sizes="32x32">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Sans+Thai:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Sans+Thai+Looped:wght@400;600&display=swap">
 <link rel="stylesheet" href="${h(basePath)}assets/css/main.css">
 <script>
 // If a visitor lands on a language-less path such as /why/, send them to the

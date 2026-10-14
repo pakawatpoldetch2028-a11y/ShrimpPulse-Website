@@ -12,7 +12,7 @@ export const PAGES = [
 ];
 
 const FONT_URL =
-  'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap';
+  'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Thai+Looped:wght@400;500;600;700&display=swap';
 
 function wordmark(ctx, { linkHome = true } = {}) {
   const { rel, lang, common } = ctx;
