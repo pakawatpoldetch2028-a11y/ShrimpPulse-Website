@@ -26,7 +26,7 @@ export function render(ctx) {
       <img class="hero__mascot" src="${h(rel(img.mascotMedium))}" srcset="${h(rel(img.mascotSmall))} 320w, ${h(rel(img.mascotMedium))} 640w, ${h(rel(img.mascot))} 711w" sizes="(min-width: 900px) 380px, 55vw" width="711" height="785" alt="${h(c.hero.mascotAlt)}" decoding="async" fetchpriority="high">
       <div class="phone" aria-label="${h(c.hero.screenshotAlt)}">
         <div class="phone__notch" aria-hidden="true"></div>
-        ${media({ src: img.lineScreenshotHome, alt: c.hero.screenshotAlt, label: c.hero.screenshotLabel, ratio: '9/18', cls: 'phone__screen', rel, eager: true })}
+        ${media({ src: img.lineScreenshotHome, alt: c.hero.screenshotAlt, label: c.hero.screenshotLabel, ratio: '427/934', cls: 'phone__screen', rel, eager: true })}
       </div>
       <p class="hero__visual-caption">${h(img.lineScreenshotHome ? c.hero.screenshotCaptionLive : c.hero.screenshotCaption)}</p>
     </div>

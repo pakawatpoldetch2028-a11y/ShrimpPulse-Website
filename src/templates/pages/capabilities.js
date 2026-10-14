@@ -103,7 +103,7 @@ export function render(ctx) {
   <div class="container split split--center">
     <div class="phone phone--static">
       <div class="phone__notch" aria-hidden="true"></div>
-      ${media({ src: config.images.lineScreenshotCapabilities, alt: c.screenshot.alt, label: c.screenshot.label, ratio: '9/18', cls: 'phone__screen', rel })}
+      ${media({ src: config.images.lineScreenshotCapabilities, alt: c.screenshot.alt, label: c.screenshot.label, ratio: '427/934', cls: 'phone__screen', rel })}
     </div>
     <div class="callout callout--note">
       <h2 class="callout__title">${h(c.professionalNote.title)}</h2>
